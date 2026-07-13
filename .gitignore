@@ -1,0 +1,58 @@
+# ==========================================
+# Gitignore para Proyecto en C (Dev-C++ / VS Code)
+# ==========================================
+
+# --- Compilación y Ejecutables ---
+# Objetos compilados
+*.o
+*.obj
+
+# Archivos de biblioteca precompilados y dinámicos
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Ejecutables del proyecto
+*.exe
+*.out
+*.app
+
+# --- Archivos generados por el IDE / Compilador ---
+# Dev-C++ (Archivos locales de sesión y Makefile autogenerado)
+Makefile.win
+*.layout
+*.win
+
+# VS Code (Configuraciones de espacio de trabajo locales)
+.vscode/
+.history/
+
+# Depuración de MSVC / otros compiladores
+*.pdb
+*.ilk
+*.idb
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+
+# --- Archivos Temporales e Historial ---
+*.tmp
+*.bak
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Datos y Reportes Generados ---
+# Archivo de red de memoria (pesado / binario autogenerado)
+data/red_memoria.dat
+
+# Carpeta de reportes locales
+reports/
+
+# Documentación local
+docs/  
